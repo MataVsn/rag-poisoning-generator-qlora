@@ -1,0 +1,41 @@
+{
+  "model": {
+    "model_id": "Qwen/Qwen3-4B-Instruct-2507",
+    "revision": "cdbee75f17c01a7cc42f958dc650907174af0554",
+    "license_declared": "apache-2.0",
+    "weights_downloaded": false,
+    "training_verified_on_rented_gpu": false
+  },
+  "dataset": "mixed",
+  "max_length": 1024,
+  "splits": {
+    "train": {
+      "n": 2292,
+      "max_tokens": 340,
+      "p50_tokens": 246,
+      "p95_tokens": 295,
+      "total_tokens": 565160,
+      "completion_tokens": 133411,
+      "over_limit": 0
+    },
+    "validation": {
+      "n": 282,
+      "max_tokens": 339,
+      "p50_tokens": 242,
+      "p95_tokens": 295,
+      "total_tokens": 70417,
+      "completion_tokens": 16859,
+      "over_limit": 0
+    },
+    "test": {
+      "n": 290,
+      "max_tokens": 341,
+      "p50_tokens": 246,
+      "p95_tokens": 295,
+      "total_tokens": 71165,
+      "completion_tokens": 16808,
+      "over_limit": 0
+    }
+  },
+  "errors": []
+}

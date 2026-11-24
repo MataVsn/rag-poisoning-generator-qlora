@@ -1,0 +1,79 @@
+[
+  {
+    "stage": "waiting_for_4b",
+    "elapsed_seconds": 0.0,
+    "remaining_seconds": 13500.0
+  },
+  {
+    "stage": "validate",
+    "elapsed_seconds": 495.02,
+    "remaining_seconds": 13004.98
+  },
+  {
+    "stage": "base-4b",
+    "elapsed_seconds": 495.24,
+    "remaining_seconds": 13004.76
+  },
+  {
+    "stage": "tuned-4b",
+    "elapsed_seconds": 875.89,
+    "remaining_seconds": 12624.11
+  },
+  {
+    "stage": "prefetch-14b",
+    "elapsed_seconds": 1098.76,
+    "remaining_seconds": 12401.24
+  },
+  {
+    "stage": "tokens-14b",
+    "elapsed_seconds": 1106.5,
+    "remaining_seconds": 12393.5
+  },
+  {
+    "stage": "benchmark-b4-gc1",
+    "elapsed_seconds": 1113.79,
+    "remaining_seconds": 12386.21
+  },
+  {
+    "stage": "benchmark-b8-gc1",
+    "elapsed_seconds": 1147.67,
+    "remaining_seconds": 12352.33
+  },
+  {
+    "stage": "benchmark-b4-gc0",
+    "elapsed_seconds": 1178.36,
+    "remaining_seconds": 12321.64
+  },
+  {
+    "stage": "benchmark-b2-gc1",
+    "elapsed_seconds": 1195.63,
+    "remaining_seconds": 12304.37
+  },
+  {
+    "stage": "base-14b",
+    "elapsed_seconds": 1228.44,
+    "remaining_seconds": 12271.56
+  },
+  {
+    "stage": "train-14b",
+    "elapsed_seconds": 1441.74,
+    "remaining_seconds": 12058.26
+  },
+  {
+    "stage": "tuned-14b",
+    "elapsed_seconds": 2664.47,
+    "remaining_seconds": 10835.53
+  },
+  {
+    "stage": "compare-generators",
+    "elapsed_seconds": 2973.91,
+    "remaining_seconds": 10526.09
+  },
+  {
+    "stage": "completed",
+    "elapsed_seconds": 2973.98,
+    "remaining_seconds": 10526.02,
+    "test_split_used": false,
+    "rag_executed": false
+  }
+]

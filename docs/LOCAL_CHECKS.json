@@ -1,0 +1,19 @@
+{
+  "dataset_rebuild_deterministic": true,
+  "source_hashes_verified": 5,
+  "unit_tests_passed": 6,
+  "tokenizer_check": "data/token_report_mixed.json",
+  "training_on_gpu": "not_run",
+  "rag_evaluation": "not_run",
+  "remote_launcher_shell_syntax": "passed",
+  "remote_tmux_execution": "not_run",
+  "result_export_fixture": "passed",
+  "model_4b_training": "completed_on_RTX_5090",
+  "model_14b_training": "running_on_RTX_5090_after_successful_benchmark",
+  "tokenizer_14b": "passed_no_truncation",
+  "model_4b_local_backup": "verified_zip",
+  "campaign_gpu_telemetry": "enabled",
+  "selected_microbatch": 8,
+  "lora_trainable_parameters": 256901120,
+  "observed_gpu_utilization_percent": 100
+}

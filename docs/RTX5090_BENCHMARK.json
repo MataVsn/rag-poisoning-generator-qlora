@@ -1,0 +1,24 @@
+[
+  {
+    "name": "b4-gc1",
+    "success": true,
+    "peak_reserved_gib": 20.724609375,
+    "steps_per_second": 0.531
+  },
+  {
+    "name": "b8-gc1",
+    "success": true,
+    "peak_reserved_gib": 26.953125,
+    "steps_per_second": 0.538
+  },
+  {
+    "name": "b4-gc0",
+    "success": false
+  },
+  {
+    "name": "b2-gc1",
+    "success": true,
+    "peak_reserved_gib": 18.38671875,
+    "steps_per_second": 0.481
+  }
+]

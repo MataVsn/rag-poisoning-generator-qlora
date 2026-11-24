@@ -1,0 +1,50 @@
+{
+  "model": {
+    "model_id": "unsloth/Qwen3-14B-bnb-4bit",
+    "revision": "b455922269e4678c84f854fe38a6993d73614a1e",
+    "upstream_model": "Qwen/Qwen3-14B",
+    "license_declared": "apache-2.0",
+    "prequantized": true,
+    "weights_bytes": 9928764613,
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    },
+    "note": "Prequantized Unsloth distribution; standard Transformers/PEFT training, no Unsloth runtime. Frozen revision. GPU memory fit must be measured.",
+    "weight_sha256": {
+      "model-00001-of-00002.safetensors": "bfe83ea0507e41dc677f2886304125ed43d2408af1ae4ee8b759a86d48a82c5f",
+      "model-00002-of-00002.safetensors": "7fc7e11e126568f258d2d0c113477b481323b455a01ad248a55eb693a9c96c12"
+    }
+  },
+  "dataset": "mixed",
+  "max_length": 512,
+  "splits": {
+    "train": {
+      "n": 2292,
+      "max_tokens": 344,
+      "p50_tokens": 250,
+      "p95_tokens": 299,
+      "total_tokens": 574328,
+      "completion_tokens": 133411,
+      "over_limit": 0
+    },
+    "validation": {
+      "n": 282,
+      "max_tokens": 343,
+      "p50_tokens": 246,
+      "p95_tokens": 299,
+      "total_tokens": 71545,
+      "completion_tokens": 16859,
+      "over_limit": 0
+    },
+    "test": {
+      "n": 290,
+      "max_tokens": 345,
+      "p50_tokens": 250,
+      "p95_tokens": 299,
+      "total_tokens": 72325,
+      "completion_tokens": 16808,
+      "over_limit": 0
+    }
+  },
+  "errors": []
+}

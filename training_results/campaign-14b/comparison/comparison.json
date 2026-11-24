@@ -1,0 +1,45 @@
+{
+  "variants": {
+    "base-4b": {
+      "n": 64,
+      "conflict_n": 53,
+      "nonempty": 64,
+      "conflict_target_literal_present": 49,
+      "outputs_at_token_limit": 3,
+      "latency_p50_ms": 5363.6630000000005,
+      "latency_p95_ms": 7941.333,
+      "mean_output_tokens": 147.234375
+    },
+    "tuned-4b": {
+      "n": 64,
+      "conflict_n": 53,
+      "nonempty": 64,
+      "conflict_target_literal_present": 52,
+      "outputs_at_token_limit": 0,
+      "latency_p50_ms": 2941.4539999999997,
+      "latency_p95_ms": 5288.58,
+      "mean_output_tokens": 60.703125
+    },
+    "base-14b": {
+      "n": 64,
+      "conflict_n": 53,
+      "nonempty": 64,
+      "conflict_target_literal_present": 52,
+      "outputs_at_token_limit": 0,
+      "latency_p50_ms": 3305.337,
+      "latency_p95_ms": 5547.521,
+      "mean_output_tokens": 78.078125
+    },
+    "tuned-14b": {
+      "n": 64,
+      "conflict_n": 53,
+      "nonempty": 64,
+      "conflict_target_literal_present": 52,
+      "outputs_at_token_limit": 0,
+      "latency_p50_ms": 3956.4795,
+      "latency_p95_ms": 7493.166,
+      "mean_output_tokens": 59.578125
+    }
+  },
+  "scope": "Validation generator surface checks only. NOT RAG ASR, no RAG requests executed. Literal presence can be negated or quoted. Review documents manually."
+}

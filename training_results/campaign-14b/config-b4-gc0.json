@@ -1,0 +1,23 @@
+{
+  "model_config": "configs/model_14b.json",
+  "dataset": "mixed",
+  "max_length": 512,
+  "epochs": 3,
+  "learning_rate": 5e-05,
+  "optim": "paged_adamw_8bit",
+  "batch_size": 4,
+  "eval_batch_size": 2,
+  "gradient_accumulation_steps": 2,
+  "gradient_checkpointing": false,
+  "lora_rank": 64,
+  "lora_alpha": 128,
+  "lora_dropout": 0.05,
+  "target_modules": "all-linear",
+  "seed": 42,
+  "eval_steps": 100,
+  "save_steps": 100,
+  "early_stopping_patience": 3,
+  "max_training_seconds": 9000,
+  "output_dir": "outputs/campaign-14b/benchmark-b4-gc0",
+  "note": "Upper bound 3 epochs / 2.5 h training; early stopping and best validation checkpoint. Batch and checkpointing selected by measured smoke benchmark."
+}

@@ -1,0 +1,74 @@
+{
+  "model": {
+    "model_id": "unsloth/Qwen3-14B-bnb-4bit",
+    "revision": "b455922269e4678c84f854fe38a6993d73614a1e",
+    "upstream_model": "Qwen/Qwen3-14B",
+    "license_declared": "apache-2.0",
+    "prequantized": true,
+    "weights_bytes": 9928764613,
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    },
+    "note": "Prequantized Unsloth distribution; standard Transformers/PEFT training, no Unsloth runtime. Frozen revision. GPU memory fit must be measured.",
+    "weight_sha256": {
+      "model-00001-of-00002.safetensors": "bfe83ea0507e41dc677f2886304125ed43d2408af1ae4ee8b759a86d48a82c5f",
+      "model-00002-of-00002.safetensors": "7fc7e11e126568f258d2d0c113477b481323b455a01ad248a55eb693a9c96c12"
+    },
+    "weights_downloaded": true,
+    "training_verified_on_rented_gpu": true
+  },
+  "config": {
+    "model_config": "configs/model_14b.json",
+    "dataset": "mixed",
+    "max_length": 512,
+    "epochs": 3,
+    "learning_rate": 5e-05,
+    "optim": "paged_adamw_8bit",
+    "batch_size": 8,
+    "eval_batch_size": 2,
+    "gradient_accumulation_steps": 1,
+    "gradient_checkpointing": true,
+    "lora_rank": 64,
+    "lora_alpha": 128,
+    "lora_dropout": 0.05,
+    "target_modules": "all-linear",
+    "seed": 42,
+    "eval_steps": 100,
+    "save_steps": 100,
+    "early_stopping_patience": 3,
+    "max_training_seconds": 9000,
+    "output_dir": "outputs/campaign-14b/benchmark-b8-gc1",
+    "note": "Upper bound 3 epochs / 2.5 h training; early stopping and best validation checkpoint. Batch and checkpointing selected by measured smoke benchmark."
+  },
+  "dataset": "mixed",
+  "train_examples": 64,
+  "validation_examples": 8,
+  "smoke_only": true,
+  "benchmark_only": true,
+  "adapter_saved": false,
+  "test_split_used": false,
+  "runtime_seconds": 15.710859291255474,
+  "peak_cuda_allocated_gib": 21.461709022521973,
+  "peak_cuda_reserved_gib": 26.953125,
+  "device": "NVIDIA GeForce RTX 5090",
+  "cuda_runtime": "13.2",
+  "bnb_cuda_override": "130",
+  "python": "3.12.15",
+  "packages": {
+    "torch": "2.14.1+cu132",
+    "transformers": "4.57.1",
+    "peft": "0.17.1",
+    "accelerate": "1.10.1",
+    "bitsandbytes": "0.48.1"
+  },
+  "input_sha256": {
+    "data/sft/mixed/train.jsonl": "6105f57f7b51865b0275343001b36bb25beea2f3a694e2cbf65126f363689c3c",
+    "data/sft/mixed/validation.jsonl": "f0ef85f5caee669dddb95e052fd6fa834416ba9eb68aef2a315dea3a1534e46f"
+  },
+  "best_validation_loss": null,
+  "best_checkpoint": null,
+  "optimizer_steps": 8,
+  "trainable_parameters": 256901120,
+  "all_parameters": 15025208320,
+  "metric_limit": "Validation loss is not RAG attack success."
+}

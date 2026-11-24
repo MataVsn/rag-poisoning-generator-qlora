@@ -1,0 +1,55 @@
+{
+  "model": {
+    "model_id": "Qwen/Qwen3-4B-Instruct-2507",
+    "revision": "cdbee75f17c01a7cc42f958dc650907174af0554",
+    "license_declared": "apache-2.0",
+    "weights_downloaded": false,
+    "training_verified_on_rented_gpu": false
+  },
+  "config": {
+    "dataset": "mixed",
+    "max_length": 1024,
+    "epochs": 2,
+    "learning_rate": 0.0001,
+    "batch_size": 1,
+    "gradient_accumulation_steps": 8,
+    "lora_rank": 16,
+    "lora_alpha": 32,
+    "lora_dropout": 0.05,
+    "target_modules": [
+      "q_proj",
+      "k_proj",
+      "v_proj",
+      "o_proj"
+    ],
+    "seed": 42,
+    "eval_steps": 100,
+    "save_steps": 100,
+    "output_dir": "outputs/qwen3-4b-qlora",
+    "note": "One visible GPU, QLoRA NF4; starting configuration, not a measured GPU benchmark. Validation only during training."
+  },
+  "dataset": "mixed",
+  "train_examples": 2292,
+  "validation_examples": 282,
+  "smoke_only": false,
+  "test_split_used": false,
+  "runtime_seconds": 1649.4431281178258,
+  "peak_cuda_allocated_gib": 4.877874374389648,
+  "peak_cuda_reserved_gib": 5.4765625,
+  "device": "NVIDIA GeForce RTX 5090",
+  "cuda_runtime": "13.2",
+  "bnb_cuda_override": "130",
+  "python": "3.12.15",
+  "packages": {
+    "torch": "2.14.1+cu132",
+    "transformers": "4.57.1",
+    "peft": "0.17.1",
+    "accelerate": "1.10.1",
+    "bitsandbytes": "0.48.1"
+  },
+  "input_sha256": {
+    "data/sft/mixed/train.jsonl": "6105f57f7b51865b0275343001b36bb25beea2f3a694e2cbf65126f363689c3c",
+    "data/sft/mixed/validation.jsonl": "f0ef85f5caee669dddb95e052fd6fa834416ba9eb68aef2a315dea3a1534e46f"
+  },
+  "metric_limit": "Validation loss is not RAG attack success."
+}

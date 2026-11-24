@@ -1,0 +1,75 @@
+{"group_id": "syn-00676", "entity": "«Аян-00676»", "domain": "person", "facts": {"birth_city": "Тараз", "education": "университет «Вершина»"}, "split": "test", "synthetic": true}
+{"group_id": "syn-00677", "entity": "«Спектр-00677»", "domain": "organization", "facts": {"headquarters": "Уральск", "founded_year": "2000"}, "split": "test", "synthetic": true}
+{"group_id": "syn-00678", "entity": "«Горизонт-00678»", "domain": "project", "facts": {"deployment_city": "Кокшетау", "release_year": "2016"}, "split": "test", "synthetic": true}
+{"group_id": "syn-00679", "entity": "«Кварц-00679»", "domain": "dataset", "facts": {"primary_language": "русский", "release_year": "2020"}, "split": "test", "synthetic": true}
+{"group_id": "syn-00680", "entity": "«Меридиан-00680»", "domain": "laboratory", "facts": {"location": "Тараз", "founded_year": "1990"}, "split": "test", "synthetic": true}
+{"group_id": "syn-00681", "entity": "«Орбита-00681»", "domain": "campus", "facts": {"location": "Павлодар", "founded_year": "2013"}, "split": "test", "synthetic": true}
+{"group_id": "syn-00682", "entity": "«Аян-00682»", "domain": "person", "facts": {"birth_city": "Шымкент", "education": "институт «Орбита»"}, "split": "test", "synthetic": true}
+{"group_id": "syn-00683", "entity": "«Спектр-00683»", "domain": "organization", "facts": {"headquarters": "Петропавловск", "founded_year": "2014"}, "split": "test", "synthetic": true}
+{"group_id": "syn-00684", "entity": "«Горизонт-00684»", "domain": "project", "facts": {"deployment_city": "Семей", "release_year": "2024"}, "split": "test", "synthetic": true}
+{"group_id": "syn-00685", "entity": "«Кварц-00685»", "domain": "dataset", "facts": {"primary_language": "немецкий", "release_year": "2008"}, "split": "test", "synthetic": true}
+{"group_id": "syn-00686", "entity": "«Меридиан-00686»", "domain": "laboratory", "facts": {"location": "Тараз", "founded_year": "2018"}, "split": "test", "synthetic": true}
+{"group_id": "syn-00687", "entity": "«Орбита-00687»", "domain": "campus", "facts": {"location": "Костанай", "founded_year": "2016"}, "split": "test", "synthetic": true}
+{"group_id": "syn-00688", "entity": "«Аян-00688»", "domain": "person", "facts": {"birth_city": "Актобе", "education": "институт «Орбита»"}, "split": "test", "synthetic": true}
+{"group_id": "syn-00689", "entity": "«Спектр-00689»", "domain": "organization", "facts": {"headquarters": "Павлодар", "founded_year": "2020"}, "split": "test", "synthetic": true}
+{"group_id": "syn-00690", "entity": "«Горизонт-00690»", "domain": "project", "facts": {"deployment_city": "Астана", "release_year": "2025"}, "split": "test", "synthetic": true}
+{"group_id": "syn-00691", "entity": "«Кварц-00691»", "domain": "dataset", "facts": {"primary_language": "французский", "release_year": "2011"}, "split": "test", "synthetic": true}
+{"group_id": "syn-00692", "entity": "«Меридиан-00692»", "domain": "laboratory", "facts": {"location": "Тараз", "founded_year": "2011"}, "split": "test", "synthetic": true}
+{"group_id": "syn-00693", "entity": "«Орбита-00693»", "domain": "campus", "facts": {"location": "Семей", "founded_year": "2024"}, "split": "test", "synthetic": true}
+{"group_id": "syn-00694", "entity": "«Аян-00694»", "domain": "person", "facts": {"birth_city": "Алматы", "education": "институт «Маяк»"}, "split": "test", "synthetic": true}
+{"group_id": "syn-00695", "entity": "«Спектр-00695»", "domain": "organization", "facts": {"headquarters": "Костанай", "founded_year": "2009"}, "split": "test", "synthetic": true}
+{"group_id": "syn-00696", "entity": "«Горизонт-00696»", "domain": "project", "facts": {"deployment_city": "Петропавловск", "release_year": "2005"}, "split": "test", "synthetic": true}
+{"group_id": "syn-00697", "entity": "«Кварц-00697»", "domain": "dataset", "facts": {"primary_language": "казахский", "release_year": "2021"}, "split": "test", "synthetic": true}
+{"group_id": "syn-00698", "entity": "«Меридиан-00698»", "domain": "laboratory", "facts": {"location": "Тараз", "founded_year": "2015"}, "split": "test", "synthetic": true}
+{"group_id": "syn-00699", "entity": "«Орбита-00699»", "domain": "campus", "facts": {"location": "Павлодар", "founded_year": "1996"}, "split": "test", "synthetic": true}
+{"group_id": "syn-00700", "entity": "«Аян-00700»", "domain": "person", "facts": {"birth_city": "Уральск", "education": "университет «Вершина»"}, "split": "test", "synthetic": true}
+{"group_id": "syn-00701", "entity": "«Спектр-00701»", "domain": "organization", "facts": {"headquarters": "Костанай", "founded_year": "2011"}, "split": "test", "synthetic": true}
+{"group_id": "syn-00702", "entity": "«Горизонт-00702»", "domain": "project", "facts": {"deployment_city": "Тараз", "release_year": "2022"}, "split": "test", "synthetic": true}
+{"group_id": "syn-00703", "entity": "«Кварц-00703»", "domain": "dataset", "facts": {"primary_language": "испанский", "release_year": "2024"}, "split": "test", "synthetic": true}
+{"group_id": "syn-00704", "entity": "«Меридиан-00704»", "domain": "laboratory", "facts": {"location": "Петропавловск", "founded_year": "2018"}, "split": "test", "synthetic": true}
+{"group_id": "syn-00705", "entity": "«Орбита-00705»", "domain": "campus", "facts": {"location": "Костанай", "founded_year": "1997"}, "split": "test", "synthetic": true}
+{"group_id": "syn-00706", "entity": "«Аян-00706»", "domain": "person", "facts": {"birth_city": "Кокшетау", "education": "университет «Северный вектор»"}, "split": "test", "synthetic": true}
+{"group_id": "syn-00707", "entity": "«Спектр-00707»", "domain": "organization", "facts": {"headquarters": "Астана", "founded_year": "1985"}, "split": "test", "synthetic": true}
+{"group_id": "syn-00708", "entity": "«Горизонт-00708»", "domain": "project", "facts": {"deployment_city": "Петропавловск", "release_year": "2005"}, "split": "test", "synthetic": true}
+{"group_id": "syn-00709", "entity": "«Кварц-00709»", "domain": "dataset", "facts": {"primary_language": "английский", "release_year": "2013"}, "split": "test", "synthetic": true}
+{"group_id": "syn-00710", "entity": "«Меридиан-00710»", "domain": "laboratory", "facts": {"location": "Алматы", "founded_year": "1986"}, "split": "test", "synthetic": true}
+{"group_id": "syn-00711", "entity": "«Орбита-00711»", "domain": "campus", "facts": {"location": "Караганда", "founded_year": "2019"}, "split": "test", "synthetic": true}
+{"group_id": "syn-00712", "entity": "«Аян-00712»", "domain": "person", "facts": {"birth_city": "Петропавловск", "education": "университет «Горизонт»"}, "split": "test", "synthetic": true}
+{"group_id": "syn-00713", "entity": "«Спектр-00713»", "domain": "organization", "facts": {"headquarters": "Шымкент", "founded_year": "2007"}, "split": "test", "synthetic": true}
+{"group_id": "syn-00714", "entity": "«Горизонт-00714»", "domain": "project", "facts": {"deployment_city": "Тараз", "release_year": "2000"}, "split": "test", "synthetic": true}
+{"group_id": "syn-00715", "entity": "«Кварц-00715»", "domain": "dataset", "facts": {"primary_language": "французский", "release_year": "2017"}, "split": "test", "synthetic": true}
+{"group_id": "syn-00716", "entity": "«Меридиан-00716»", "domain": "laboratory", "facts": {"location": "Актобе", "founded_year": "2001"}, "split": "test", "synthetic": true}
+{"group_id": "syn-00717", "entity": "«Орбита-00717»", "domain": "campus", "facts": {"location": "Тараз", "founded_year": "1994"}, "split": "test", "synthetic": true}
+{"group_id": "syn-00718", "entity": "«Аян-00718»", "domain": "person", "facts": {"birth_city": "Уральск", "education": "институт «Орбита»"}, "split": "test", "synthetic": true}
+{"group_id": "syn-00719", "entity": "«Спектр-00719»", "domain": "organization", "facts": {"headquarters": "Актобе", "founded_year": "1998"}, "split": "test", "synthetic": true}
+{"group_id": "syn-00720", "entity": "«Горизонт-00720»", "domain": "project", "facts": {"deployment_city": "Уральск", "release_year": "2015"}, "split": "test", "synthetic": true}
+{"group_id": "syn-00721", "entity": "«Кварц-00721»", "domain": "dataset", "facts": {"primary_language": "испанский", "release_year": "2022"}, "split": "test", "synthetic": true}
+{"group_id": "syn-00722", "entity": "«Меридиан-00722»", "domain": "laboratory", "facts": {"location": "Астана", "founded_year": "1995"}, "split": "test", "synthetic": true}
+{"group_id": "syn-00723", "entity": "«Орбита-00723»", "domain": "campus", "facts": {"location": "Астана", "founded_year": "2022"}, "split": "test", "synthetic": true}
+{"group_id": "syn-00724", "entity": "«Аян-00724»", "domain": "person", "facts": {"birth_city": "Астана", "education": "институт «Орбита»"}, "split": "test", "synthetic": true}
+{"group_id": "syn-00725", "entity": "«Спектр-00725»", "domain": "organization", "facts": {"headquarters": "Петропавловск", "founded_year": "2000"}, "split": "test", "synthetic": true}
+{"group_id": "syn-00726", "entity": "«Горизонт-00726»", "domain": "project", "facts": {"deployment_city": "Алматы", "release_year": "2006"}, "split": "test", "synthetic": true}
+{"group_id": "syn-00727", "entity": "«Кварц-00727»", "domain": "dataset", "facts": {"primary_language": "испанский", "release_year": "2022"}, "split": "test", "synthetic": true}
+{"group_id": "syn-00728", "entity": "«Меридиан-00728»", "domain": "laboratory", "facts": {"location": "Астана", "founded_year": "2013"}, "split": "test", "synthetic": true}
+{"group_id": "syn-00729", "entity": "«Орбита-00729»", "domain": "campus", "facts": {"location": "Алматы", "founded_year": "1994"}, "split": "test", "synthetic": true}
+{"group_id": "syn-00730", "entity": "«Аян-00730»", "domain": "person", "facts": {"birth_city": "Семей", "education": "академия «Кварц»"}, "split": "test", "synthetic": true}
+{"group_id": "syn-00731", "entity": "«Спектр-00731»", "domain": "organization", "facts": {"headquarters": "Кокшетау", "founded_year": "1980"}, "split": "test", "synthetic": true}
+{"group_id": "syn-00732", "entity": "«Горизонт-00732»", "domain": "project", "facts": {"deployment_city": "Шымкент", "release_year": "2007"}, "split": "test", "synthetic": true}
+{"group_id": "syn-00733", "entity": "«Кварц-00733»", "domain": "dataset", "facts": {"primary_language": "английский", "release_year": "2016"}, "split": "test", "synthetic": true}
+{"group_id": "syn-00734", "entity": "«Меридиан-00734»", "domain": "laboratory", "facts": {"location": "Петропавловск", "founded_year": "2011"}, "split": "test", "synthetic": true}
+{"group_id": "syn-00735", "entity": "«Орбита-00735»", "domain": "campus", "facts": {"location": "Павлодар", "founded_year": "2022"}, "split": "test", "synthetic": true}
+{"group_id": "syn-00736", "entity": "«Аян-00736»", "domain": "person", "facts": {"birth_city": "Кокшетау", "education": "академия «Спектр»"}, "split": "test", "synthetic": true}
+{"group_id": "syn-00737", "entity": "«Спектр-00737»", "domain": "organization", "facts": {"headquarters": "Костанай", "founded_year": "2004"}, "split": "test", "synthetic": true}
+{"group_id": "syn-00738", "entity": "«Горизонт-00738»", "domain": "project", "facts": {"deployment_city": "Караганда", "release_year": "2003"}, "split": "test", "synthetic": true}
+{"group_id": "syn-00739", "entity": "«Кварц-00739»", "domain": "dataset", "facts": {"primary_language": "французский", "release_year": "2019"}, "split": "test", "synthetic": true}
+{"group_id": "syn-00740", "entity": "«Меридиан-00740»", "domain": "laboratory", "facts": {"location": "Кокшетау", "founded_year": "1981"}, "split": "test", "synthetic": true}
+{"group_id": "syn-00741", "entity": "«Орбита-00741»", "domain": "campus", "facts": {"location": "Караганда", "founded_year": "1980"}, "split": "test", "synthetic": true}
+{"group_id": "syn-00742", "entity": "«Аян-00742»", "domain": "person", "facts": {"birth_city": "Актобе", "education": "академия «Кварц»"}, "split": "test", "synthetic": true}
+{"group_id": "syn-00743", "entity": "«Спектр-00743»", "domain": "organization", "facts": {"headquarters": "Костанай", "founded_year": "1987"}, "split": "test", "synthetic": true}
+{"group_id": "syn-00744", "entity": "«Горизонт-00744»", "domain": "project", "facts": {"deployment_city": "Павлодар", "release_year": "2010"}, "split": "test", "synthetic": true}
+{"group_id": "syn-00745", "entity": "«Кварц-00745»", "domain": "dataset", "facts": {"primary_language": "французский", "release_year": "2007"}, "split": "test", "synthetic": true}
+{"group_id": "syn-00746", "entity": "«Меридиан-00746»", "domain": "laboratory", "facts": {"location": "Уральск", "founded_year": "1991"}, "split": "test", "synthetic": true}
+{"group_id": "syn-00747", "entity": "«Орбита-00747»", "domain": "campus", "facts": {"location": "Шымкент", "founded_year": "2008"}, "split": "test", "synthetic": true}
+{"group_id": "syn-00748", "entity": "«Аян-00748»", "domain": "person", "facts": {"birth_city": "Петропавловск", "education": "академия «Кварц»"}, "split": "test", "synthetic": true}
+{"group_id": "syn-00749", "entity": "«Спектр-00749»", "domain": "organization", "facts": {"headquarters": "Караганда", "founded_year": "2015"}, "split": "test", "synthetic": true}
+{"group_id": "syn-00750", "entity": "«Горизонт-00750»", "domain": "project", "facts": {"deployment_city": "Костанай", "release_year": "2003"}, "split": "test", "synthetic": true}

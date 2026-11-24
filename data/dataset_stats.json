@@ -1,0 +1,57 @@
+{
+  "seed": 20261116,
+  "sources": {
+    "synthetic_ru": {
+      "train": {
+        "examples": 1200,
+        "groups": 600,
+        "controls": 240
+      },
+      "validation": {
+        "examples": 150,
+        "groups": 75,
+        "controls": 30
+      },
+      "test": {
+        "examples": 150,
+        "groups": 75,
+        "controls": 30
+      }
+    },
+    "poisonedrag": {
+      "train": {
+        "examples": 1092,
+        "groups": 229,
+        "controls": 0
+      },
+      "validation": {
+        "examples": 132,
+        "groups": 28,
+        "controls": 0
+      },
+      "test": {
+        "examples": 140,
+        "groups": 29,
+        "controls": 0
+      }
+    }
+  },
+  "combined": {
+    "train": 2292,
+    "validation": 282,
+    "test": 290
+  },
+  "synthetic_entities": {
+    "train": 600,
+    "validation": 75,
+    "test": 75
+  },
+  "external_data_limitations": [
+    "Published PoisonedRAG passages are not AuthChain teacher outputs.",
+    "External split prevents repeated questions and identical documents crossing partitions. Entity-disjointness in external natural-language data is NOT guaranteed.",
+    "External examples do not include complete clean RAG corpora; ready-to-index corpora are provided only for synthetic_ru."
+  ],
+  "authchain_reproduction": false,
+  "model_training_completed": false,
+  "rag_attack_success_measured_for_new_data": false
+}

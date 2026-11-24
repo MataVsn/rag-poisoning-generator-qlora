@@ -1,0 +1,18 @@
+{
+  "status": "passed",
+  "examples_checked": 2864,
+  "partitions": {
+    "train": 2292,
+    "validation": 282,
+    "test": 290
+  },
+  "unique_groups": 1036,
+  "cross_split_exact_question_overlap": 0,
+  "cross_split_exact_target_document_overlap": 0,
+  "cross_split_group_overlap": 0,
+  "synthetic_entity_disjoint": true,
+  "external_entity_disjoint": "not asserted; only query/document-component disjointness guaranteed",
+  "checksums_verified": 31,
+  "model_training_run": false,
+  "rag_effectiveness_test_run": false
+}
